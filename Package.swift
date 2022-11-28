@@ -9,7 +9,7 @@ let package = Package(
     .iOS(.v9)
   ],
   products: [
-    .library(name: "AppboyKit", type: .static, targets: ["AppboyKit"]),
+    .library(name: "AppboyKit", targets: ["AppboyKit"]),
     .library(name: "AppboyUI", targets: ["AppboyUI"]),
     .library(name: "AppboyPushStory", targets: ["AppboyPushStory"])
   ],
